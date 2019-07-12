@@ -1,5 +1,5 @@
-ABC.exe: fact.o big3.o main.o
-	gcc -o ABC.exe fact.o big3.o main.o 
+ABC.exe: fact.o big3.o main.o palindrome.o reverse.o
+	gcc -o ABC.exe fact.o big3.o main.o palindrome.o reverse.o
 main.o:
 	gcc -c main.c
 fact.o:
