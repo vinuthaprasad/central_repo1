@@ -9,6 +9,7 @@ void reverse()
     scanf("%s", str);
     printf("The original string is %s\n", str);
     for(i = 0; str[i] != '\0'; i++);
+    echo "reverse"
     {
         k = i-1;
     }
