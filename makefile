@@ -11,3 +11,5 @@ palindrome.o:
 	gcc -c palindrome.c
 reverse.o:
 	gcc -c reverse.c
+	
+echo "makefile"
