@@ -5,6 +5,7 @@ void palindrome(){
     char string1[20];
     int i, length;
     int flag = 0;
+    echo "palindrome"
 
     printf("Enter a string:");
     scanf("%s", string1);
