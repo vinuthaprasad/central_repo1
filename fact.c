@@ -3,6 +3,7 @@
 void fact()
 {
   int c, n, fact = 1;
+  echo "fact.c"
 
   printf("Enter a number to calculate its factorial\n");
   scanf("%d", &n);
